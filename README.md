@@ -1,23 +1,25 @@
-Set Up
-Clone the repository:
-git clone https://github.com/KaliJS/Invoice-react-app
-Create your environment file:
-cp .env.example .env
+Project is built in laravel and react.
 
-Update these settings in the .env file:
-DB_DATABASE (your local database, i.e. "react_db")
-DB_USERNAME (your local db username, i.e. "root")
-DB_PASSWORD (your local db password, i.e. "")
+Set Up<br>
+Clone the repository:<br>
+git clone https://github.com/KaliJS/Invoice-react-app<br>
+Create your environment file:<br>
+cp .env.example .env<br>
 
-Install PHP dependencies:
-composer install
+Update these settings in the .env file:<br>
+DB_DATABASE (your local database, i.e. "react_db")<br>
+DB_USERNAME (your local db username, i.e. "root")<br>
+DB_PASSWORD (your local db password, i.e. "")<br>
 
-Generate an app key:
-php artisan key:generate
-Run the database migrations:
-php artisan migrate
-Install Javascript dependencies:
-npm install
+Install PHP dependencies:<br>
+composer install<br>
 
-Run an initial build:
+Generate an app key:<br>
+php artisan key:generate<br>
+Run the database migrations:<br>
+php artisan migrate<br>
+Install Javascript dependencies:<br>
+npm install<br>
+
+Run an initial build:<br>
 npm run dev
