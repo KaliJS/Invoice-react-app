@@ -1,4 +1,4 @@
-Set Up
+Set Up<br>
 Clone the repository:
 git clone https://github.com/KaliJS/Invoice-react-app
 Create your environment file:
